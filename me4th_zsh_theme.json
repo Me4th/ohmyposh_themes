@@ -39,6 +39,7 @@
           "template": "{{ if .Env.PNPPSSITE }}\u00A0{{ end }}"
         }
       ],
+      "newline": true,
       "type": "rprompt",
     },
     {
@@ -100,6 +101,5 @@
     }
   ],
   "final_space": true,
-  "newline": true,
   "version": 3
 }
