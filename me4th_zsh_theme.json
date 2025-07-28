@@ -40,7 +40,7 @@
         }
       ],
       "newline": true,
-      "type": "rprompt",
+      "type": "prompt",
     },
     {
       "alignment": "left",
