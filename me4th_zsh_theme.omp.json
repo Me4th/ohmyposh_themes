@@ -101,5 +101,6 @@
     }
   ],
   "final_space": true,
+  "newline": true,
   "version": 3
 }
