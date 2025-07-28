@@ -40,7 +40,6 @@
         }
       ],
       "type": "rprompt",
-      "newline", true
     },
     {
       "alignment": "left",
@@ -101,5 +100,6 @@
     }
   ],
   "final_space": true,
+  "newline", true,
   "version": 3
 }
