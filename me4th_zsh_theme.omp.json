@@ -40,7 +40,6 @@
         }
       ],
       "type": "rprompt",
-      "newline": true
     },
     {
       "alignment": "left",
@@ -95,12 +94,18 @@
           "template": " \u2665 {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b0",
           "type": "time"
-        }
+        },
+        {
+          "type": "text",
+          "style": "diamond",
+          "foreground": "p:white",
+          "background": "p:tan",
+          "template": "\n"
+        },
       ],
       "type": "prompt"
     }
   ],
   "final_space": true,
-  "newline": true,
   "version": 3
 }
