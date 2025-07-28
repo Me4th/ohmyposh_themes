@@ -37,14 +37,9 @@
           "foreground": "p:white",
           "background": "p:teal",
           "template": "{{ if .Env.PNPPSSITE }}\u00A0{{ end }}"
-        },
-        {
-          "type": "text",
-          "style": "plain",
-          "template": "\n ↳"
         }
       ],
-      "type": "rprompt",
+      "type": "rprompt"
     },
     {
       "alignment": "left",
@@ -99,11 +94,6 @@
           "template": " \u2665 {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b0",
           "type": "time"
-        },
-        {
-          "type": "text",
-          "style": "plain",
-          "template": "\n ↳"
         }
       ],
       "type": "prompt"
