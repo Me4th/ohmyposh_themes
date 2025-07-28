@@ -97,10 +97,8 @@
         },
         {
           "type": "text",
-          "style": "diamond",
-          "foreground": "p:white",
-          "background": "p:tan",
-          "template": "\n"
+          "style": "plain",
+          "template": "\n ↳"
         },
       ],
       "type": "prompt"
