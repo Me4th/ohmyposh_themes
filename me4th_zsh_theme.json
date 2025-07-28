@@ -39,8 +39,7 @@
           "template": "{{ if .Env.PNPPSSITE }}\u00A0{{ end }}"
         }
       ],
-      "newline": true,
-      "type": "prompt",
+      "type": "rprompt"
     },
     {
       "alignment": "left",
