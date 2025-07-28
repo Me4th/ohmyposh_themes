@@ -37,6 +37,11 @@
           "foreground": "p:white",
           "background": "p:teal",
           "template": "{{ if .Env.PNPPSSITE }}\u00A0{{ end }}"
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "template": "\n ↳"
         }
       ],
       "type": "rprompt",
@@ -99,7 +104,7 @@
           "type": "text",
           "style": "plain",
           "template": "\n ↳"
-        },
+        }
       ],
       "type": "prompt"
     }
